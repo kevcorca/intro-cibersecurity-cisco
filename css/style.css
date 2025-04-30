@@ -1,0 +1,55 @@
+/* index.html */
+#main-body {
+    background-image: url(../img/background-main.jpg);
+    background-size: 100%;
+    font-family: monospace, sans-serif;
+}
+
+#main-title {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgba(127, 255, 127, 0.5);
+    border-radius: 10px;
+    width: 380px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.modules {
+    font-size: 22px;
+    background-color: rgba(127, 255, 127, 0.5);
+    border-radius: 10px;
+    width: 380px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 30px;
+}
+
+.modules a:link {
+    color: rgb(0, 0, 0);
+}
+
+.modules a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.modules a:hover {
+    color: rgb(72, 0, 255);
+}
+
+.modules a:active {
+    color: rgb(0, 255, 255);
+}
+
+/* 1.1 El Mundo de la Ciberseguridad */
+#body-1-1 {
+    background-image: url(../img/background-1-1.jpg);
+    background-size: cover;
+}
+
+.background-cool {
+    background-color: rgba(205, 255, 255, 0.6);
+    padding: 15px 25px;
+    margin: 25px;
+}
